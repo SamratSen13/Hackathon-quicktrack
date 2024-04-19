@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(5deg, #147897, #529b4d);
+  padding: 10px;
+}
+.quicktrack{
+  width: 1000px;
+  height: 100px;
+  max-width: 1080px;
+  background: #fff;
+  margin: 50px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 15px;
+}
+.quicktrack h2 {
+  color: rgb(252, 139, 139);
+  display: flex;
+  align-items: top;
+  margin-bottom: 30px;
+}
+
+.quicktrack h2 img {
+  width: 40px;
+  margin-left: 10px;
+}
