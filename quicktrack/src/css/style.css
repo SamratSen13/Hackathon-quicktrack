@@ -13,9 +13,34 @@
   background: linear-gradient(5deg, #147897, #529b4d);
   padding: 10px;
 }
+
+.buttondiv {
+  float: right;
+}
+
+.buttondiv #track{
+  border: none;
+  outline: none;
+  padding: 20px 20px;
+  background: #efae3d;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttondiv #analytics{
+  border: none;
+  outline: none;
+  padding: 20px 20px;
+  background: #efae3d;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .quicktrack{
   width: 1000px;
-  height: 100px;
+  height: 200px;
   max-width: 1080px;
   background: #fff;
   margin: 50px auto 20px;
@@ -33,3 +58,136 @@
   width: 40px;
   margin-left: 10px;
 }
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #d3d0db;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+ .row button {
+  border: none;
+  outline: none;
+  padding: 20px 50px;
+  background: #08b650;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .row label {
+  border:none;
+  outline: none;
+  padding: 20px 50px;
+  background: #967fff;
+  color:#fff;
+  border-radius: 5px;
+}
+
+.quicktracklist{
+  width: 600px;
+  height: 200px;
+  max-width: 1080px;
+  background: #fff;
+  margin: 50px 100px 100px; 
+  padding: 40px 30px 70px;
+  border-radius: 15px;
+}
+
+.quicktracklist h2 {
+  color: rgb(252, 139, 139);
+  display: flex;
+  align-items: top;
+  margin-bottom: 30px;
+}
+
+.quicktracklist #taskName {
+border:none;
+outline: none;
+padding: 20px 50px;
+background: #ffede8;
+color:#000000;
+border-radius: 5px;
+}
+
+.quicktracklist #stopWatchEnd {
+  border:none;
+  outline: none;
+  padding: 20px 50px;
+  background: #ff33aa;
+  color:#fff;
+  border-radius: 5px; 
+}
+
+.quicktracklist button {
+  border: none;
+  outline: none;
+  padding: 20px 50px;
+  background: #ff1616;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.quicktrackalltasklist{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 760px;
+  height: 370px;
+  background: #f8f4f4;
+  padding: 10px 10px 10px;
+  border-radius: 20px;
+ }
+
+.taskTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.taskEndTable {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+min-width: 400px;
+position: absolute;
+top:37px;
+left:410px;
+}
+
+.taskTable thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+}
+
+.taskEndTable thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+}
+
+.btn-delete{
+  font-size: 16px;
+  color: red;
+}
+
+/* @media screen and (min-width: 1080px) {
+  .container, .buttondiv, .quicktrack, .row, .quicktracklist, .quicktrackalltasklist, .taskTable, .taskEndTable, .btn-delete {
+    width: 100%; 
+  }
+}*/
